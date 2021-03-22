@@ -1,0 +1,43 @@
+.header {
+  background: url(../img/cristmas.jpg) 0 0 no-repeat;
+  background-color: $dark-blue;
+  background-size: cover;
+}
+
+.header__wrapper {
+  max-width: $content-width;
+  padding: 35px 30px 35px 25px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header__text {
+  margin: 0;
+  max-width: 305px;
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header__phone-text {
+  max-width: 250px;
+  margin: 0;
+  font-family: $font-bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.header__phone-link {
+  color: $white;
+}

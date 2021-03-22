@@ -1,0 +1,17 @@
+.footer {
+  background-color: $dark-blue;
+  padding: 20px 30px;
+}
+
+.footer__container {
+  max-width: $content-width;
+  margin: 0 auto;
+}
+
+.footer__social-list {
+  max-width: 220px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

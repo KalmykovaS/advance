@@ -1,0 +1,15 @@
+.button {
+  display: inline-block;
+  padding: 16px 48px;
+  margin: 10px 0;
+  font-size: 20px;
+  line-height: 27px;
+  color: $white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-medium;
+  background: linear-gradient(92.38deg, #CE1637 8.24%, #DF0101 79.25%);
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+}

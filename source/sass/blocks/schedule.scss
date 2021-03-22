@@ -1,0 +1,28 @@
+.schedule {
+  background-color: #edf4ff;
+}
+
+.schedule__container.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.schedule__title {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: $font-title;
+  color: $black;
+  text-align: center;
+  font-size: 44px;
+  line-height: 51px;
+}
+
+.schedule__wrapper-button {
+  text-align: center;
+}
+
+.schedule__button {
+  padding: 16px 30px;
+  box-shadow: 5px 5px 15px rgba(60, 60, 60, 0.28);
+}
